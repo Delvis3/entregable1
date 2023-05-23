@@ -1,0 +1,12 @@
+.quoteBox__btn{
+ display: block;
+ margin: 0 auto;
+  
+}
+.quoteBox__phrase{
+    opacity: .82;
+    gap: 5px;
+    border-style:inherit;
+    font-size:x-large;
+
+}
