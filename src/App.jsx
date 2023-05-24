@@ -2,7 +2,7 @@ import { useState, useSyncExternalStore } from 'react';
 import './App.css'
 import dbQuotes from "./db/quote.json";
 import { getRandon } from './utils/random';
-import QuoteBox from './assets/components/quoteBox';
+import QuoteBox from './assets/components/QuoteBox';
 
 const bgImages = ["bg1","bg2","bg3","bg4"];
 
