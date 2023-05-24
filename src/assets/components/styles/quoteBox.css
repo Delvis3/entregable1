@@ -1,12 +1,16 @@
 .quoteBox__btn{
  display: block;
  margin: 0 auto;
+ background-color: rgb(20, 38, 50);
+ color: white;
   
 }
 .quoteBox__phrase{
+    background-image: url(/public/images/bgquote.jpeg);
     opacity: .82;
     gap: 5px;
     border-style:inherit;
     font-size:x-large;
+    border-radius: 5%;
 
 }
