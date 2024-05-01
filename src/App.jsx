@@ -8,8 +8,7 @@ const bgImages = ["bg1","bg2","bg3","bg4"];
 
 function App() {
  const [quote, setQuote]= useState(getRandon(dbQuotes))
- const [bgImage, setBgImage] = useState(getRandon(bgImages))
-
+ const [bgImage, setBgImage] = useState(getRandon(bgImages));
 
 
  const handleChangueQuote =()=>{
@@ -21,11 +20,12 @@ function App() {
   return (
     <main className={`app ${bgImage}`}>
      <section className='app__container'>
-      <h1>Space</h1>
+      <h1>INFOGALAX</h1>
       <QuoteBox handleChangueQuote={handleChangueQuote} phrase={quote.phrase}/>
       <footer>
       <h3>Fuente:{quote.author}</h3>
       </footer>
+      <div className="imgPlanet"><img src="./public/images/planeta1.png" alt="" /></div>
       </section> 
     </main>
   )

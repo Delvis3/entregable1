@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
 html{
   box-sizing: border-box;
+  font-family: 'Iceberg';
 }
 
 *, *::after, *::before {
